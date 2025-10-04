@@ -1,0 +1,67 @@
+@import "@fortawesome/fontawesome-free/css/all.min.css";
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+label {
+  display: block;
+  color: #6e7d90;
+  padding-top: 14px;
+  padding-bottom: 3px;
+}
+
+input {
+  padding: 11px;
+  padding-left: 45px;
+  border-radius: 10px;
+  border: 0px;
+  background-color: #edf0f4;
+  color: #6e7d90;
+  position: relative;
+  display: inline-block;
+}
+
+i {
+  color: #c0c6cc;
+  margin-left: 13px;
+  margin-top: 10px;
+  position: absolute;
+  z-index: 1;
+}
+
+.billsLabel {
+  margin-right: 110px;
+}
+
+.peopleLabel {
+  margin-right: 40px;
+}
+
+.tipLabel {
+  margin-right: 60px;
+}
+
+.card {
+  background-color: #fefefe;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 600px;
+  border-radius: 25px;
+  padding: 23px;
+}
+
+.container {
+  padding: 2px 28px;
+  flex: auto;
+  justify-content: center;
+  text-align: center;
+}
+
+.billsPeople {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
