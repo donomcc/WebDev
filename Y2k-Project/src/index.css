@@ -1,0 +1,94 @@
+:root {
+  --y2k-tekhelet: #561ea5;
+  --y2k-dark-purple: #0e0326;
+  --y2k-russian-violet: #160a36;
+  --y2k-licorice: #0b0118;
+  --y2k-purple: #1d074e;
+}
+
+body {
+  margin: 0;
+  font-family: "Arial";
+  background-color: var(--y2k-white);
+  overflow-x: hidden;
+}
+
+a {
+  text-decoration: none;
+}
+
+.y2k-container {
+  position: relative;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  overflow: hidden;
+}
+
+.github {
+  position: absolute;
+  top: 35%;
+  left: 11%;
+  width: 200px;
+  padding: 15px;
+  z-index: 100;
+  font-family: monospace;
+  font-size: 0.9em;
+  line-height: 1.4;
+  color: #fff;
+}
+
+.github p {
+  margin: 0;
+}
+
+.github a {
+  font-size: 1.5em;
+  font-weight: 600;
+  margin: 0;
+  color: #fff;
+}
+
+.linkedin {
+  position: absolute;
+  top: 42%;
+  left: 11%;
+  width: 200px;
+  padding: 15px;
+  z-index: 100;
+  font-family: monospace;
+  font-size: 0.9em;
+  line-height: 1.4;
+  color: #fff;
+}
+
+.linkedin p {
+  margin: 0;
+}
+
+.linkedin a {
+  font-size: 1.5em;
+  font-weight: 600;
+  margin: 0;
+  color: #fff;
+}
+
+.background-texture {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url("../public/y2k2.webp");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  z-index: -1;
+}
+
+.title {
+  left: 3000px;
+}
