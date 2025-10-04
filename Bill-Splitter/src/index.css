@@ -23,6 +23,7 @@ input {
   color: #6e7d90;
   position: relative;
   display: inline-block;
+  font-weight: bold;
 }
 
 i {
@@ -34,15 +35,15 @@ i {
 }
 
 .billsLabel {
-  margin-right: 110px;
+  margin-right: 150px;
 }
 
 .peopleLabel {
-  margin-right: 40px;
+  margin-right: 80px;
 }
 
 .tipLabel {
-  margin-right: 60px;
+  margin-right: 100px;
 }
 
 .card {
